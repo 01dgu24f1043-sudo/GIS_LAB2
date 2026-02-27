@@ -36,7 +36,27 @@
             height: auto;
             display: block;
         }
-        
+        /* --- CODING TAJUK DI TENGAH --- */
+.map-title {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.8); /* Latar belakang putih separa telus */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-family: 'Arial', sans-serif;
+}
+
+.map-title h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
         /* ------------------------------ */
         </style>
         <title>Peta Politeknik Ungku Umar</title>
@@ -44,6 +64,9 @@
     <body>
        <div class="map-logo">
     <img src="logo_puu.png" alt="Logo PUU">
+</div>
+		<div class="map-title">
+    <h2>Taman Perumahan</h2>
 </div>
 
         <div id="map">
