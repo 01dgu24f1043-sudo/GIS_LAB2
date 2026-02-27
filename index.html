@@ -21,16 +21,16 @@
 
         /* --- CODING LOGO DI SEBELAH KIRI --- */
         .map-logo {
-            position: absolute;
-            top: 10px;      /* Jarak dari atas (supaya bawah butang +/-) */
-            left: 50px;     /* Jarak dari kiri */
-            right: auto !important;  /* Paksa matikan kedudukan kanan */
-            z-index: 1000;
-            background: rgba(255, 255, 255, 0.7); 
-            padding: 5px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-        }
+    position: absolute;
+    top: 10px !important;   /* Paksa 10px */
+    left: 50px !important;  /* Paksa 50px */
+    right: auto !important; /* Pastikan ia tidak ditarik ke kanan */
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.7); 
+    padding: 5px;
+    border-radius: 5px;
+}
+        
         .map-logo img {
             width: 150px;   /* Saiz logo */
             height: auto;
